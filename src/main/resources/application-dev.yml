@@ -7,3 +7,8 @@ spring:
     jpa:
         hibernate:
             ddl-auto: validate
+    devtools:
+        restart:
+            enabled: true
+        livereload:
+            enabled: true
